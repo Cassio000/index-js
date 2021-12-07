@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Site Games Mania</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Jogos, Online, Games, Computador, Notebook">
+    <meta name="author" content="Cassio Carvalho">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/666b78af7c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark color">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"> <img src="imagens/logo/logo.png" alt="Game Mania" width="100px" height="40px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" aria-current="page" href="index.html"><i class="fas fa-home"></i>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="#"><i class="fas fa-shopping-cart"></i>Carrinho</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle menu-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Produtos
+                    </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item menu-link" href="#">Nintendo</a></li>
+                                <li><a class="dropdown-item menu-link" href="#">Pc Gamer</a></li>
+                                <li><a class="dropdown-item menu-link" href="#">Playstation</a></li>
+                                <li><a class="dropdown-item menu-link" href="#">X Box</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="#"><i class="fas fa-user" _mstvisible="2">Login</i></a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-1" type="search" placeholder="O que procura?" aria-label="Search">
+                        <button class="btn btn-outline-success button" type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+
+        <section class="banner">
+            <img src="imagens/banner.jpg" alt="banner-home">
+            <div class="banner-txt">
+                <h1>BEM VINDO À GAME MANIA</h1>
+                <p>Aqui você encontra tudo do universo Game: jogos, acessórios, consoles e gadgets. Lançamentos, edições de colecionadores, produtos raros e jogos em oferta! Produtos do mundo todo, aqui no Brasil! Envios em até 10 minutos.
+                    <br> <a class="color" href="#">Saiba mais...</a>
+                </p>
+            </div>
+        </section>
+
+        <h2>DESTAQUES</h2>
+
+        <section class="container-fluid">
+            <div class="row aling">
+                <div class="col-6 col-md-3">
+                    <div class="prod">
+                        <img src="imagens/produtos/Console_Playstation_5_PS5_825GB_Sony-removebg-preview.png" alt="">
+                        <p>Console Playstation 5</p>
+                        <button class="button button5" id="mudar" onclick="clicar()">Comprar
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="prod">
+                        <img src="imagens/produtos/PC_Gamer_Completo_AMD_A6_3.8GHZ_Placa_de_vídeo_Radeon_R5_2GB_HD_500GB_8GB_Monitor_LED_HDMI_19.5_EasyPC-removebg-preview.png" alt="">
+                        <p>PC Gamer Completo AMD A6 3.8GHZ</p>
+                        <button class="button button5" id="alterar" onclick="mudar()">Comprar
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="prod">
+                        <img src="imagens/produtos/Console_Xbox_Series_X_-_Microsoft-removebg-preview.png" alt="">
+                        <p>Console Xbox Series X </p>
+                        <button class="button button5" id="indisponivel" onclick="aperte()">Comprar
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="prod">
+                        <img src="imagens/produtos/Console_Nintendo_Switch_32GB_-_Gray-removebg-preview.png" alt="">
+                        <p>Console Nintendo Switch</p>
+                        <button class="button button5" id="ap" onclick="ap()">Comprar
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <h2>NOVIDADES</h2>
+
+        <section class="container-fluid">
+            <div class="row aling">
+                <div class="col-6 col-md-3">
+                    <div class="prod">
+                        <img src="imagens/produtos/fallen_legion_revenants_vanguard_edition_switch_13799_1_42c85b26d019ce17a71c759b20680c09-removebg-preview.png" alt="">
+                        <p>fallen legion revenants vanguard</p>
+                        <button class="button button5" id="a" onclick="a()">Comprar
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="prod">
+                        <img src="imagens/produtos/rayman_origins-removebg-preview.png" alt="">
+                        <p>Rayman origins</p>
+                        <button class="button button5" id="b" onclick="b()">Comprar
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="prod">
+                        <img src="imagens/produtos/Óculos_De_Realidade_Virtual_3_D_Para_Smartphone_-_Vr_Box_2.0-removebg-preview.png" alt="">
+                        <p>Óculos De Realidade Virtual</p>
+                        <button class="button button5" id="c" onclick="c()">Comprar
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="prod">
+                        <img src="imagens/produtos/flashback-classics-ps4-removebg-preview.png" alt="">
+                        <p>flashback classics</p>
+                        <button class="button button5" id="d" onclick="d()">Comprar
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <h2>GALERIA</h2>
+
+        <div class="container-fluid sumir">
+            <div class="row">
+                <div class="col-6 col-md-2">
+                    <div class="prod">
+                        <img src="imagens/produtos2/mouse_sem_fio_gamer_logitech_g703_hero_16k_lightspeed_recarregavel_rgb_lightsync_6_botoes_16000_dpi__2434_2_20201201120554.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-6 col-md-2">
+                    <div class="prod">
+                        <img src="imagens/produtos2/console_new_nintendo_switch_32gb_com_joy_con_azul_vermelho_104_4_20201008162158.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-6 col-md-2">
+                    <div class="prod">
+                        <img src="imagens/produtos2/console_playstation_4_pro_1tb_4k_sony_7_2_20200716142234.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-6 col-md-2">
+                    <div class="prod">
+                        <img src="imagens/produtos2/fone_headset_gamer_onikuma_k1_pro_50mm_conexao_p2_ps5_ps4_xbox_x_pc_mobile_vermelho_2582_1_cf31e856db8553e2784be4558b63bb70.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-6 col-md-2">
+                    <div class="prod">
+                        <img src="imagens/produtos2/kit_computador_pc_gamer_tgs_3000_com_monitor_gamer_ryzen_3_3200g_3_6ghz_mem_8gb_ddr4_ssd_240gb_rx_57_1792_1_20200622164902.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-6 col-md-2">
+                    <div class="prod">
+                        <img src="imagens/produtos2/teclado_sem_fio_mecanico_gamer_logitech_g915_lightspeed_bluetooth_design_ultrafino_rgb_switch_gl_tac_1603_2_20200601140609.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="container">
+
+            <div class="rodape">
+                <dl>
+                    <dd>INSTITUCIONAL</dd>
+                    <dd><a href="#">Empresa</a></dd>
+                    <dd><a href="#">Como comprar</a></dd>
+                    <dd><a href="#">Segurança</a></dd>
+                    <dd><a href="#">Política de privacidade</a></dd>
+                    <dd><a href="#">Tempo de garantia</a></dd>
+                </dl>
+            </div>
+            <div class="rodape">
+                <dl>
+                    <dt>ATENDIMENTO</dt><br>
+                    <dt><i class="fas fa-phone-square-alt"></i>: 11-99999-9999</dt>
+                    <dt>E-mail:<a href="mailto:gamemania@gamemania.com.br"><i class="fas fa-envelope-square"></i>gmania@gmania.com.br</a></dt>
+                    <dt>Atendimento de seg a sex 8h às 17h.</dt>
+                </dl>
+            </div>
+            <div class="rodape">
+                <dl>
+                    <dd>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class="fab fa-instagram-square">@gmania</i>
+                        </a>
+                    </dd><br>
+                    <dd>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="fab fa-facebook">Gmania</i>
+                        </a>
+                    </dd>
+                </dl>
+            </div>
+        </section>
+    </main>
+
+</body>
+<script type="text/javascript" src="bootstrap/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+
+</html>
